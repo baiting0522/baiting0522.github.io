@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-<small>I'm a second year master student in statistics at University of California, Los Angeles (UCLA). I received my B.S. degree in mathematics and applied mathematics at Sun Yat-sen University (SYSU).</small>
+<span style="font-size: smaller;">I'm a second year master student in statistics at University of California, Los Angeles (UCLA). I received my B.S. degree in mathematics and applied mathematics at Sun Yat-sen University (SYSU).</span>
