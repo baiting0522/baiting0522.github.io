@@ -364,7 +364,7 @@ a:active {
 }
 
 .home-figure {
-  float: right;
+  float: none;
   width: min(100%, 420px);
   margin: 0 auto 1rem auto;
 }
@@ -380,6 +380,7 @@ a:active {
   color: var(--swatch-4);
   margin-top: 0.4rem;
   line-height: 1.2;
+  text-align: center;
 }
 
 /* ─── Highlight ─── */
