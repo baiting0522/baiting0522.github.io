@@ -81,7 +81,7 @@ body {
 
 /* Push main content to the right of the fixed sidebar */
 main {
-  margin-left: 45%;
+  margin-left: 35%;
   padding: 0.5rem 1rem 1rem;
   max-width: 55%;
 }
