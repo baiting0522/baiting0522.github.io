@@ -365,7 +365,7 @@ a:active {
 
 .home-figure {
   float: right;
-  width: min(100%, 700px);
+  width: min(100%, 420px);
   margin: 0 auto 1rem auto;
 }
 
