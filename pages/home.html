@@ -2,6 +2,7 @@
     Besides research, I’m a nature enthusiast who loves traveling and hiking.
   </p>
 
+```html
 <div class="home-page">
   <figure class="home-figure">
     <img src="asset/Denali.jpg" alt="Denali" />
@@ -19,12 +20,26 @@
   </figure>
 
   <figure class="home-figure">
-    <img src="asset/Halekena.jpg" alt="Halekena" />
+    <img src="asset/Halekena.jpg" alt="Haleakala" />
     <figcaption>Haleakala National Park</figcaption>
   </figure>
-
-  <figure class="home-figure">
-    <img src="asset/Volcano.jpg" alt="Halekena" />
-    <figcaption>Volcano National Park</figcaption>
-  </figure>
 </div>
+```
+
+```css
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.home-figure {
+  margin: 0;
+}
+
+.home-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+```
