@@ -363,10 +363,16 @@ a:active {
   color: var(--swatch-4);
 }
 
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
 .home-figure {
   float: none;
-  width: min(100%, 400px);
-  margin: 0 auto 1rem auto;
+  width: 100%;
+  margin: 0;
 }
 
 .home-figure img {
